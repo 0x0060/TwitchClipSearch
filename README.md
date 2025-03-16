@@ -1,9 +1,5 @@
 # TwitchClipSearch
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/0x0060/twitchclipsearch)](https://goreportcard.com/report/github.com/0x0060/twitchclipsearch)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/0x0060/twitchclipsearch)](https://golang.org/)
-
 A powerful service that automatically fetches and manages Twitch clips, providing Discord notifications for new content from your favorite streamers.
 
 ## Features
