@@ -1,0 +1,33 @@
+# Test environment configuration
+
+database:
+  path: ":memory:"
+  max_connections: 5
+  timeout_seconds: 10
+
+twitch:
+  client_id: "test_client_id"
+  client_secret: "test_client_secret"
+  check_interval_secs: 60
+
+discord:
+  streamers:
+    test_streamer: "http://localhost:8080/webhook"
+  rate_limit: 1
+  username: "TwitchClipBot-Test"
+
+server:
+  host: "localhost"
+  port: 8081
+  read_timeout_seconds: 5
+  write_timeout_seconds: 5
+
+metrics:
+  enabled: true
+  namespace: "twitchclipsearch_test"
+  endpoint: "/metrics"
+
+logging:
+  level: "debug"
+  format: "text"
+  output: "stdout"

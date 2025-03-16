@@ -1,0 +1,33 @@
+# Development environment configuration
+
+database:
+  path: "clips_dev.db"
+  max_connections: 10
+  timeout_seconds: 30
+
+twitch:
+  client_id: "${TWITCH_CLIENT_ID}"
+  client_secret: "${TWITCH_CLIENT_SECRET}"
+  check_interval_secs: 300
+
+discord:
+  streamers:
+    example_streamer: "${DISCORD_WEBHOOK_URL}"
+  rate_limit: 5
+  username: "TwitchClipBot-Dev"
+
+server:
+  host: "localhost"
+  port: 8080
+  read_timeout_seconds: 30
+  write_timeout_seconds: 30
+
+metrics:
+  enabled: true
+  namespace: "twitchclipsearch_dev"
+  endpoint: "/metrics"
+
+logging:
+  level: "debug"
+  format: "json"
+  output: "stdout"

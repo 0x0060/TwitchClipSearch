@@ -1,0 +1,9 @@
+{
+  "twitch_client_id": "your_twitch_client_id",
+  "twitch_client_secret": "your_twitch_client_secret",
+  "streamers": {
+    "kaicenat": "https://discord.com/api/webhooks/your_webhook_url"
+  },
+  "check_interval_secs": 300,
+  "database_path": "clips.db"
+}
